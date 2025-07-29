@@ -52,6 +52,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				medical: {
+					blue: '#2563EB',
+					red: '#DC2626',
+					gray: '#374151',
+					lightgray: '#F8FAFC'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
@@ -62,6 +68,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				'inter': ['Inter', 'sans-serif'],
+				'opensans': ['Open Sans', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
